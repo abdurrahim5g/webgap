@@ -95,7 +95,7 @@ body {
 
 /* ========= hero area start
 ==========================================================*/
-section.hero-area {
+.hero-area {
   padding: 55px 0 120px;
   position: relative;
   &:after {
@@ -167,7 +167,7 @@ section.hero-area {
 
 /* ========= remote start
 ==========================================================*/
-section.remote-browser {
+.remote-browser {
   padding: 100px 0 40px;
 
   .single-item {
@@ -202,7 +202,7 @@ section.remote-browser {
 
 /* ========= Happy user
 ==========================================================*/
-section.happy-user {
+.happy-user {
   padding: 100px 0 200px;
   background: url("assets/images/background.png") no-repeat center / cover;
   .row.owl-carousel {
@@ -290,7 +290,7 @@ section.happy-user {
 
 /* ========= Learning center
 ==========================================================*/
-section.learning-center {
+.learning-center {
   padding: 100px 0 130px;
   position: relative;
   z-index: 9;
@@ -491,7 +491,7 @@ ul.address li:first-child img {
 
 // Small devices (landscape phones, 576px and up)
 @media all and (max-width: 767.98px) {
-  section.hero-area {
+  .hero-area {
     .hero-img {
       max-width: inherit;
       text-align: center;
@@ -520,13 +520,13 @@ ul.address li:first-child img {
     }
   }
 
-  section.remote-browser {
+  .remote-browser {
     .single-item p {
       font-size: 14px;
     }
   }
 
-  section.happy-user {
+  .happy-user {
     .user-openione {
       padding: 30px 35px 30px 90px;
       .signup-text {
@@ -545,7 +545,7 @@ ul.address li:first-child img {
     }
   }
 
-  section.learning-center {
+  .learning-center {
     .card {
       margin: 0 0 30px;
     }
@@ -579,7 +579,7 @@ ul.address li:first-child img {
     }
   }
 
-  section.remote-browser {
+  .remote-browser {
     .reb-margin {
       margin-bottom: 45px;
     }
@@ -596,7 +596,7 @@ ul.address li:first-child img {
 
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 1400px) {
-  section.happy-user {
+  .happy-user {
     .owl-nav button.owl-next {
       box-shadow: 0 0 5px;
       border-radius: 50%;
